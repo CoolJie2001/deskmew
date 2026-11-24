@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DeskMew - A Desktop Cat That Lives on Your Keyboard</title>
+<style>
+  :root { color-scheme: dark; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; background: #121212; color: #e8e6e3; line-height: 1.6; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 64px 24px; }
+  header { text-align: center; padding: 32px 0 16px; }
+  h1 { font-size: 3rem; letter-spacing: 0.5px; }
+  .tagline { font-size: 1.25rem; color: #b8b3ad; margin-top: 8px; }
+  .hero { display: block; max-width: 640px; width: 100%; margin: 32px auto; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,.5); }
+  .badges { text-align: center; margin: 8px 0 40px; color: #9a948c; font-size: .95rem; }
+  h2 { font-size: 1.5rem; margin: 40px 0 12px; color: #f4f2ef; }
+  p { margin: 8px 0; color: #cfccc7; }
+  ul { margin: 12px 0 12px 22px; }
+  li { margin: 6px 0; color: #cfccc7; }
+  .gallery { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 12px; }
+  .gallery img { flex: 1 1 280px; max-width: 100%; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,.4); }
+  .card { background: #1c1c1c; border: 1px solid #2c2c2c; border-radius: 12px; padding: 20px 24px; margin-top: 12px; }
+  a { color: #6cb6ff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer { text-align: center; color: #77716a; font-size: .9rem; margin-top: 64px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>DeskMew</h1>
+    <div class="tagline">A desktop cat that naps on your keyboard.</div>
+  </header>
+
+  <img class="hero" src="preview-black.png" alt="DeskMew black cat resting on a keyboard">
+
+  <div class="badges">Windows 10 / 11 &middot; Works fully offline &middot; No data collected</div>
+
+  <h2>Meet your new coworker</h2>
+  <p>DeskMew is a playful black cat that lives on your desktop. As you type, it reaches out and taps the keys with its paws. Move your mouse and it turns its head to follow the cursor. Pet its head and it closes its eyes happily; ignore it too long and it falls asleep; annoy it and it thumps its tail on your desk.</p>
+
+  <h2>Features</h2>
+  <ul>
+    <li><strong>Live keyboard interaction</strong> &mdash; the cat taps along as you type, using the correct paw for each key</li>
+    <li><strong>Mouse following</strong> &mdash; its head and eyes track your cursor all day long</li>
+    <li><strong>Petting</strong> &mdash; click its head and it enjoys it (blushes included)</li>
+    <li><strong>Typing sound effects</strong> &mdash; three key sound types, mutable from the context menu</li>
+    <li><strong>Multiple skins</strong> &mdash; black cat, orange tabby, and skeletal-animation keyboard cats</li>
+    <li><strong>Auto-start</strong> &mdash; optionally launches with Windows</li>
+    <li><strong>100% offline</strong> &mdash; no network requests, no accounts, no tracking</li>
+  </ul>
+
+  <h2>Screenshots</h2>
+  <div class="gallery">
+    <img src="preview-black.png" alt="Black cat skin">
+    <img src="preview-orange.png" alt="Orange tabby skin">
+  </div>
+
+  <h2>Privacy</h2>
+  <div class="card">
+    <p>DeskMew works entirely offline. It reads which physical key was pressed (never the typed content) and your mouse pointer position so the cat can react &mdash; nothing is recorded, stored on servers, or shared. The only file it writes is a local settings file on your device.</p>
+    <p>Read the full <a href="https://cooljie2001.github.io/presslens-privacy/deskmew">Privacy Policy</a>.</p>
+  </div>
+
+  <h2>Support</h2>
+  <div class="card">
+    <p>Questions or feedback? Contact us at <a href="mailto:jackyshen2002@hotmail.com">jackyshen2002@hotmail.com</a>.</p>
+  </div>
+
+  <footer>DeskMew &copy; 2026 &middot; <a href="https://cooljie2001.github.io/presslens-privacy/deskmew">Privacy Policy</a></footer>
+</div>
+</body>
+</html>
